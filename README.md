@@ -19,13 +19,13 @@ En este proyecto aprovecharemos las ventajas que tiene este Framework para la au
 
 Los **Endpoints** que se probarán son los siguientes:
 
-- :boom: Get: "https://reqres.in/api//users/2", sirve para traer la información del usuario que ha sido registrado.
+- :boom: Get: "https://reqres.in/api//pet/2", sirve para traer la información de la mascota que ha sido registrada.
  
-- :boom: Post: "https://reqres.in/api//users", sirve para que la información del usuario sea enviada a la base de datos.
+- :boom: Post: "https://reqres.in/api//pet", sirve para que la información de la mascota sea enviada a la base de datos.
 
-- :boom: Delete: "https://reqres.in/api//users/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
+- :boom: Delete: "https://reqres.in/api//pet/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
 
-- :boom: Put: "https://reqres.in/api//users{id}", sirve para que la información del usuario sea actualizada en la base de datos.
+- :boom: Put: "https://reqres.in/api//pet/{id}", sirve para que la información del usuario sea actualizada en la base de datos.
 
 ***
 # A TENER EN CUENTA: 
