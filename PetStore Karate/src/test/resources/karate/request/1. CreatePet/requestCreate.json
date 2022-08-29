@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "category": {
+    "id": 2,
+    "name": "#(faker.creature.animal.breed)"
+  },
+  "name": "#(faker.creature.animal.name)",
+  "photoUrls": [
+    "#(faker.creature.animal.avatar.image)"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "#(faker.creature.animal.tag.name)"
+    }
+  ],
+  "status": "#(faker.creature.animal.status)"
+}
