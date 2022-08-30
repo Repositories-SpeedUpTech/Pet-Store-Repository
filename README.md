@@ -1,45 +1,45 @@
-### AUTOR:
+### AUTHOR:
 
 Ismael Alexander Carvajal González
 
 ***
 
-## TABLA DE CONTENIDO
-1. [DESCRIPCIÓN DEL PROYECTO :herb:](#descripción-del-proyecto)
-2. [A TENER EN CUENTA :calling:](#a-tener-en-cuenta)
-3. [PRERREQUISITOS :violin:](#prerrequisitos)
-4. [EJECUCIÓN :metro:](#ejecución)
-5. [AUTOR :man:](#autor)
+## TABLE OF CONTENTS
+1. [PROJECT DESCRIPTION :herb:](#descripción-del-proyecto)
+2. [TO CONSIDER :calling:](#a-tener-en-cuenta)
+3. [PREREQUISITES :violin:](#prerrequisitos)
+4. [EXECUTION :metro:](#ejecución)
+5. [AUTHOR :man:](#autor)
 
 ***
-# DESCRIPCIÓN DEL PROYECTO: 
-_Karate Framework es la única herramienta de código abierto que combina API test-automation, mocks y testeo de rendimiento en un solo framework. La sintaxis BDD popularizada por Cucumber es language-neutral, y fácil incluso para los no-programadores. Además de potentes aserciones JSON & XML, puedes ejecutar tests en paralelo para mejorar la velocidad – elemento crítico para testeos HTTP API._
+# PROJECT DESCRIPTION: 
+_Karate Framework is the only open source tool that combines API test-automation, mocks and performance testing in a single framework. The BDD syntax popularized by Cucumber is language-neutral, and easy even for non-programmers. In addition to powerful JSON & XML assertions, you can run tests in parallel to improve speed – critical element for HTTP API testing._
 
-En este proyecto aprovecharemos las ventajas que tiene este Framework para la automatización de pruebas y se utilizará para probar los diversos Endpoints de la siguiente API: "https://reqres.in/api/" :alien:
+In this project we will take advantage of this Framework for test automation and will be used to test the different Endpoints of the following API: "https://reqres.in/api/". :alien:
 
-Los **Endpoints** que se probarán son los siguientes:
+The **Endpoints** to be tested are as follows:
 
-- :boom: Get: "https://reqres.in/api//pet/2", sirve para traer la información de la mascota que ha sido registrada.
+- :boom: Get: "https://reqres.in/api//pet/2", is used to bring the information of the pet that has been registered.
  
-- :boom: Post: "https://reqres.in/api//pet", sirve para que la información de la mascota sea enviada a la base de datos.
+- :boom: Post: "https://reqres.in/api//pet", is used for the pet's information to be sent to the database.
 
-- :boom: Delete: "https://reqres.in/api//pet/{id}", sirve para que la información del usuario sea eliminada de la base de datos.
+- :boom: Delete: "https://reqres.in/api//pet/{id}", is used to have the user's information removed from the database.
 
-- :boom: Put: "https://reqres.in/api//pet/{id}", sirve para que la información del usuario sea actualizada en la base de datos.
-
-***
-# A TENER EN CUENTA: 
-
-Con el fin de aplicar buenas prácticas se decidió utilizar:
-
-- :capital_abcd: Patrón Objet Model  
-
-- :recycle: Programación orientada a objetos
+- :boom: Put: "https://reqres.in/api//pet/{id}", is used to update the user's information in the database.
 
 ***
-# PRERREQUISITOS: 
+# TO BE TAKEN INTO ACCOUNT: 
 
-Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
+In order to apply best practices, it was decided to use:
+
+- :capital_abcd: Objet Model Pattern  
+
+- :recycle: Object-oriented programming
+
+***
+# PREREQUISITES: 
+
+In order to execute the project, the following specifications are required:
 
 |Herramienta| Versión| 
 |:--------------|:-------------:|
@@ -49,9 +49,9 @@ Para poder ejecutar el proyecto se requieren las siguientes especificaciones:
 
 
 ***
-# EJECUCIÓN:
+# EXECUTION:
 
-Se debe tener en cuenta que para ejecutar las pruebas que están en las features de manera individual se requieren correr las clases correspondientes de Java. En nuestro caso tenemos la siguiente relación para su ejecución:
+It must be taken into account that in order to execute the tests that are in the features individually, the corresponding Java classes must be run. In our case we have the following relation for their execution:
 #
 |Clase Java (Runner)| Features| 
 |:--------------|:-------------:|
@@ -61,19 +61,19 @@ Se debe tener en cuenta que para ejecutar las pruebas que están en las features
 |:soon: UpdatePet.java |updatePet.feature |
 
 #
-Por otro lado, si queremos ejecutar todas las features de manera paralela ejecutamos la siguiente clase de Java:
+On the other hand, if we want to execute all the features in parallel, we execute the following Java class:
 #
 |Clase Java (Runner)| Features| 
 |:--------------|:-------------:|
-|:bangbang: AllFeaturesTest.java| Todas las features |
+|:bangbang: AllFeaturesTest.java| All features |
 #
-Por último, para reproducir los reportes desde el navegador se deben seguir los siguientes pasos:
+Finally, to reproduce the reports from the browser, the following steps must be followed:
 
-:one: Nos dirigimos a la carpeta Target y la desplegamos
+:one: We go to the Target folder and open it
 
-:two:  Desplegamos la carpeta "Cucumber-html-reports"
+:two:  We unfold the folder "Cucumber-html-reports"
 
-:three: Dar click derecho al archivo "overview-features.html", seleccionar la opción "Open in", luego "Browser" y seleccionar el navegador de preferencia.
+:three: Right click on the file "overview-features.html", select the option "Open in", then "Browser" and select the browser of your choice.
 
 ***
 
